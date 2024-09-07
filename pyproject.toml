@@ -1,0 +1,18 @@
+[project]
+name = "titanic-gbdt"
+version = "0.1.0"
+description = "Toy project modeling the Titanic dataset with GBDTs"
+authors = [{name = "Yenson Lau", email = "yenson.lau@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "lightgbm>=4.5.0",
+    "matplotlib>=3.9.2",
+    "numpy>=2.1.1",
+    "pandas>=2.2.2",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipython>=8.27.0",
+]
