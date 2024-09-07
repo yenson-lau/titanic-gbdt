@@ -43,3 +43,5 @@ ipython_config.py
 # Autoconfigured environment varables
 .envrc
 
+# Pre-commit config
+.pre-commit-config.yaml
